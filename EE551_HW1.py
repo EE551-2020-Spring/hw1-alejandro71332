@@ -45,7 +45,7 @@ def lists():
     ls = n.split()
 
     # Get all the items past the first of the third substring
-    allitems = ls[1:]
+    allitems = ls[2][1:]
 
     # Create a 3 x 3 matrix as nested list such that
     #   first row is [1, 4, 5]
